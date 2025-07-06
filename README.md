@@ -106,7 +106,7 @@ Understanding what drives employee attrition:
 
 Understanding the critical factors that drive employee attrition:
 
-> **💼 Detailed Analysis**: See [BUSINESS_INSIGHTS.md](business_insights_file) for comprehensive recommendations and implementation roadmap.
+> **💼 Detailed Analysis**: See [BUSINESS_INSIGHTS.md](business_insights_file.md) for comprehensive recommendations and implementation roadmap.
 
 ![Business Insights](business_insights.png)
 
