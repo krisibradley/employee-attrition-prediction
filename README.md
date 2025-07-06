@@ -26,39 +26,6 @@ Our systematic approach combines data science best practices with business under
 
 ![Methodology](methodology_flowchart.png)
 
-## 📂 Repository Structure
-
-```
-employee-attrition-prediction/
-├── data/
-│   └── WA_FnUseC_HREmployeeAttrition.csv
-├── images/
-│   ├── project_overview.png
-│   ├── model_comparison.png
-│   ├── feature_importance.png
-│   ├── business_insights.png
-│   └── methodology_flowchart.png
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_data_preprocessing.ipynb
-│   ├── 03_model_training.ipynb
-│   └── 04_model_evaluation.ipynb
-├── src/
-│   ├── __init__.py
-│   ├── data_loader.py
-│   ├── preprocessor.py
-│   ├── model_trainer.py
-│   └── visualizer.py
-├── results/
-│   ├── model_comparison.png
-│   ├── feature_importance.png
-│   └── analysis_results.txt
-├── main.py
-├── readme_image_generator.py
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
 
 ## 🚀 Quick Start
 
