@@ -11,7 +11,7 @@ A comprehensive machine learning project to predict employee attrition using var
 
 This project analyzes employee data to predict which employees are likely to leave the company. Using multiple machine learning algorithms, the model achieves **85%+ accuracy** in predicting employee attrition and provides valuable insights for HR decision-making.
 
-![Project Overview](project_overview.png)
+![Project Overview](project_overview_1.png)
 
 ### Key Features
 - 📈 **Multiple ML Models**: Logistic Regression, Random Forest, Gradient Boosting, SVM
@@ -24,7 +24,7 @@ This project analyzes employee data to predict which employees are likely to lea
 
 Our systematic approach combines data science best practices with business understanding:
 
-![Methodology](methodology_flowchart.png)
+![Methodology](methodology_flowchart_1.png)
 
 
 ## 🚀 Quick Start
@@ -81,7 +81,7 @@ Our systematic approach combines data science best practices with business under
 ### Model Performance
 Our comprehensive model comparison shows excellent predictive performance:
 
-![Model Comparison](model_comparison2.png)
+![Model Comparison](model_comparison_1.png)
 
 | Model | Accuracy | Precision | Recall | F1-Score | AUC |
 |-------|----------|-----------|---------|----------|-----|
@@ -93,7 +93,7 @@ Our comprehensive model comparison shows excellent predictive performance:
 ### Feature Importance Analysis
 Understanding what drives employee attrition:
 
-![Feature Importance](feature_importance.png)
+![Feature Importance](feature_importance_1.png)
 
 ### Top Risk Factors (Based on Machine Learning Analysis)
 1. **Monthly Income** (0.0805) - Lower compensation is the strongest predictor of attrition
@@ -108,7 +108,7 @@ Understanding the critical factors that drive employee attrition:
 
 > **💼 Detailed Analysis**: See [BUSINESS_INSIGHTS.md](business_insights_file.md) for comprehensive recommendations and implementation roadmap.
 
-![Business Insights](business_insights.png)
+![Business Insights](business_insights_1.png)
 
 ### 🔍 **High-Risk Employee Profiles**
 - Employees working overtime
