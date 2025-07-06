@@ -11,7 +11,7 @@ A comprehensive machine learning project to predict employee attrition using var
 
 This project analyzes employee data to predict which employees are likely to leave the company. Using multiple machine learning algorithms, the model achieves **85%+ accuracy** in predicting employee attrition and provides valuable insights for HR decision-making.
 
-![Project Overview](images/project_overview.png)
+![Project Overview](project_overview.png)
 
 ### Key Features
 - 📈 **Multiple ML Models**: Logistic Regression, Random Forest, Gradient Boosting, SVM
@@ -24,7 +24,7 @@ This project analyzes employee data to predict which employees are likely to lea
 
 Our systematic approach combines data science best practices with business understanding:
 
-![Methodology](images/methodology_flowchart.png)
+![Methodology](methodology_flowchart.png)
 
 ## 📂 Repository Structure
 
@@ -126,7 +126,7 @@ Our comprehensive model comparison shows excellent predictive performance:
 ### Feature Importance Analysis
 Understanding what drives employee attrition:
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](feature_importance.png)
 
 ### Top Risk Factors
 1. **Overtime Work** - Strongest predictor of attrition
@@ -139,7 +139,7 @@ Understanding what drives employee attrition:
 
 Understanding the critical factors that drive employee attrition:
 
-![Business Insights](images/business_insights.png)
+![Business Insights](business_insights.png)
 
 ### 🔍 **High-Risk Employee Profiles**
 - Employees working overtime
