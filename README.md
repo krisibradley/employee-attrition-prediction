@@ -95,12 +95,12 @@ Understanding what drives employee attrition:
 
 ![Feature Importance](feature_importance.png)
 
-### Top Risk Factors
-1. **Overtime Work** - Strongest predictor of attrition
-2. **Job Satisfaction** - Lower satisfaction = higher attrition risk
-3. **Monthly Income** - Compensation directly impacts retention
-4. **Years at Company** - Newer employees more likely to leave
-5. **Work-Life Balance** - Poor balance increases turnover risk
+### Top Risk Factors (Based on Machine Learning Analysis)
+1. **Monthly Income** (0.0805) - Lower compensation is the strongest predictor of attrition
+2. **Age** (0.0635) - Younger employees are more likely to leave the company
+3. **Daily Rate** (0.0574) - Daily compensation rate significantly impacts retention decisions
+4. **Overtime** (0.0557) - Working overtime increases attrition risk substantially
+5. **Total Working Years** (0.0539) - Less experienced employees more likely to leave
 
 ## 📈 Key Business Insights
 
