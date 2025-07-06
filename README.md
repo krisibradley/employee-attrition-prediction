@@ -81,7 +81,7 @@ Our systematic approach combines data science best practices with business under
 ### Model Performance
 Our comprehensive model comparison shows excellent predictive performance:
 
-![Model Comparison](images/model_comparison.png)
+![Model Comparison](model_comparison.png)
 
 | Model | Accuracy | Precision | Recall | F1-Score | AUC |
 |-------|----------|-----------|---------|----------|-----|
