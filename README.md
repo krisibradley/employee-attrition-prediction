@@ -11,6 +11,14 @@ A comprehensive machine learning project to predict employee attrition using var
 
 This project analyzes employee data to predict which employees are likely to leave the company. Using multiple machine learning algorithms, the model achieves **85%+ accuracy** in predicting employee attrition and provides valuable insights for HR decision-making.
 
+![Project Overview](images/project_overview.png)
+
+## 🔬 Methodology
+
+Our systematic approach combines data science best practices with business understanding:
+
+![Methodology](images/methodology_flowchart.png)
+
 ### Key Features
 - 📈 **Multiple ML Models**: Logistic Regression, Random Forest, Gradient Boosting, SVM
 - 🔧 **Hyperparameter Tuning**: Optimized model performance using GridSearchCV
@@ -18,6 +26,32 @@ This project analyzes employee data to predict which employees are likely to lea
 - 💡 **Business Insights**: Actionable recommendations for reducing attrition
 - 🎲 **Feature Importance**: Identifies key factors driving employee turnover
 
+## 📂 Repository Structure
+
+```
+employee-attrition-prediction/
+├── data/
+│   └── WA_FnUseC_HREmployeeAttrition.csv
+├── notebooks/
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_data_preprocessing.ipynb
+│   ├── 03_model_training.ipynb
+│   └── 04_model_evaluation.ipynb
+├── src/
+│   ├── __init__.py
+│   ├── data_loader.py
+│   ├── preprocessor.py
+│   ├── model_trainer.py
+│   └── visualizer.py
+├── results/
+│   ├── model_comparison.png
+│   ├── feature_importance.png
+│   └── analysis_results.txt
+├── main.py
+├── requirements.txt
+├── README.md
+└── LICENSE
+```
 
 ## 🚀 Quick Start
 
@@ -66,12 +100,21 @@ This project analyzes employee data to predict which employees are likely to lea
 ## 🔍 Analysis Highlights
 
 ### Model Performance
+Our comprehensive model comparison shows excellent predictive performance:
+
+![Model Comparison](images/model_comparison.png)
+
 | Model | Accuracy | Precision | Recall | F1-Score | AUC |
 |-------|----------|-----------|---------|----------|-----|
 | **Random Forest (Tuned)** | **0.8673** | **0.7419** | **0.6429** | **0.6889** | **0.8431** |
 | Gradient Boosting (Tuned) | 0.8605 | 0.7097 | 0.6190 | 0.6615 | 0.8324 |
 | Logistic Regression | 0.8367 | 0.6552 | 0.5476 | 0.5966 | 0.8156 |
 | SVM | 0.8299 | 0.6207 | 0.5357 | 0.5753 | 0.8089 |
+
+### Feature Importance Analysis
+Understanding what drives employee attrition:
+
+![Feature Importance](images/feature_importance.png)
 
 ### Top Risk Factors
 1. **Overtime Work** - Strongest predictor of attrition
@@ -80,7 +123,11 @@ This project analyzes employee data to predict which employees are likely to lea
 4. **Years at Company** - Newer employees more likely to leave
 5. **Work-Life Balance** - Poor balance increases turnover risk
 
-## 📈 Key Insights
+## 📈 Key Business Insights
+
+Understanding the critical factors that drive employee attrition:
+
+![Business Insights](images/business_insights.png)
 
 ### 🔍 **High-Risk Employee Profiles**
 - Employees working overtime
@@ -125,11 +172,11 @@ This project analyzes employee data to predict which employees are likely to lea
 ## 📊 Visualizations
 
 The project includes comprehensive visualizations:
-- Attrition distribution analysis
-- Feature correlation heatmaps
-- Model performance comparisons
-- ROC curve analysis
-- Feature importance charts
+- **Project Overview**: Dataset statistics and key distributions
+- **Model Performance**: ROC curves and accuracy comparisons
+- **Feature Importance**: Top predictive factors analysis
+- **Business Insights**: Key attrition drivers and patterns
+- **Methodology**: Complete ML pipeline visualization
 
 ## 🔧 Usage Examples
 
