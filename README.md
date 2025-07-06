@@ -13,12 +13,6 @@ This project analyzes employee data to predict which employees are likely to lea
 
 ![Project Overview](images/project_overview.png)
 
-## 🔬 Methodology
-
-Our systematic approach combines data science best practices with business understanding:
-
-![Methodology](images/methodology_flowchart.png)
-
 ### Key Features
 - 📈 **Multiple ML Models**: Logistic Regression, Random Forest, Gradient Boosting, SVM
 - 🔧 **Hyperparameter Tuning**: Optimized model performance using GridSearchCV
@@ -26,12 +20,24 @@ Our systematic approach combines data science best practices with business under
 - 💡 **Business Insights**: Actionable recommendations for reducing attrition
 - 🎲 **Feature Importance**: Identifies key factors driving employee turnover
 
+## 🔬 Methodology
+
+Our systematic approach combines data science best practices with business understanding:
+
+![Methodology](images/methodology_flowchart.png)
+
 ## 📂 Repository Structure
 
 ```
 employee-attrition-prediction/
 ├── data/
 │   └── WA_FnUseC_HREmployeeAttrition.csv
+├── images/
+│   ├── project_overview.png
+│   ├── model_comparison.png
+│   ├── feature_importance.png
+│   ├── business_insights.png
+│   └── methodology_flowchart.png
 ├── notebooks/
 │   ├── 01_data_exploration.ipynb
 │   ├── 02_data_preprocessing.ipynb
@@ -48,6 +54,7 @@ employee-attrition-prediction/
 │   ├── feature_importance.png
 │   └── analysis_results.txt
 ├── main.py
+├── readme_image_generator.py
 ├── requirements.txt
 ├── README.md
 └── LICENSE
@@ -78,7 +85,12 @@ employee-attrition-prediction/
    pip install -r requirements.txt
    ```
 
-4. **Run the analysis**
+4. **Generate visualizations**
+   ```bash
+   python readme_image_generator.py
+   ```
+
+5. **Run the analysis**
    ```bash
    python main.py
    ```
@@ -171,12 +183,16 @@ Understanding the critical factors that drive employee attrition:
 
 ## 📊 Visualizations
 
-The project includes comprehensive visualizations:
+The project generates comprehensive visualizations automatically:
+
+### 🎨 **Generated Images**
 - **Project Overview**: Dataset statistics and key distributions
-- **Model Performance**: ROC curves and accuracy comparisons
+- **Model Performance**: ROC curves and accuracy comparisons  
 - **Feature Importance**: Top predictive factors analysis
 - **Business Insights**: Key attrition drivers and patterns
 - **Methodology**: Complete ML pipeline visualization
+
+All visualizations are automatically generated in high resolution and optimized for professional presentation.
 
 ## 🔧 Usage Examples
 
@@ -192,6 +208,18 @@ predictor.load_and_explore_data()
 predictor.preprocess_data()
 predictor.train_models()
 predictor.evaluate_models()
+```
+
+### Generate Visualizations
+```python
+from readme_image_generator import ReadmeImageGenerator
+
+# Initialize generator
+generator = ReadmeImageGenerator('data/WA_FnUseC_HREmployeeAttrition.csv')
+
+# Load data and generate all images
+generator.load_data()
+generator.generate_all_images()
 ```
 
 ### Individual Components
